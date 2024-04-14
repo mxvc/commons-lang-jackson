@@ -5,6 +5,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -144,8 +145,9 @@ public class JsonTool {
     private static ObjectMapper om() {
         if (om == null) {
             om = new ObjectMapper();
-            om.configure(DeserializationFeature.FAIL_ON_IGNORED_PROPERTIES,false);
-            om.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES,false);
+            om.disable(DeserializationFeature.FAIL_ON_IGNORED_PROPERTIES);
+            om.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
+            om.disable(SerializationFeature.FAIL_ON_EMPTY_BEANS);
             om.setDateFormat(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss"));
         }
         return om;

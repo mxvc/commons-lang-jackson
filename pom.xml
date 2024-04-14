@@ -7,7 +7,7 @@
 
     <groupId>io.github.moon-cn</groupId>
     <artifactId>commons-lang-json</artifactId>
-    <version>1.0.5</version>
+    <version>1.0.6</version>
     <description>commons-lang-json</description>
     <url>https://github.com/mooncn/commons-lang-json</url>
     <licenses>
