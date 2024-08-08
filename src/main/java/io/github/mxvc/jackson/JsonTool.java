@@ -1,4 +1,4 @@
-package cn.moon.lang.json;
+package io.github.mxvc.jackson;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;

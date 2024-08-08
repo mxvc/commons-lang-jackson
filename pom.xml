@@ -5,11 +5,11 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.moon-cn</groupId>
-    <artifactId>commons-lang-json</artifactId>
-    <version>1.0.6</version>
-    <description>commons-lang-json</description>
-    <url>https://github.com/mooncn/commons-lang-json</url>
+    <groupId>io.github.mxvc</groupId>
+    <artifactId>commons-lang-jackson</artifactId>
+    <version>1.0.7</version>
+    <description>commons-lang-jackson</description>
+    <url>https://github.com/mxvc/commons-lang-jackson</url>
     <licenses>
         <license>
             <name>The Apache License, Version 2.0</name>
@@ -23,9 +23,9 @@
         </developer>
     </developers>
     <scm>
-        <connection>scm:git:git://github.com/mooncn/commons-lang-json.git</connection>
-        <developerConnection>scm:git@github.com:mooncn/commons-lang-json.git</developerConnection>
-        <url>https://github.com/mooncn/commons-lang-json/tree/master</url>
+        <connection>scm:git:git://github.com/mxvc/commons-lang-jackson.git</connection>
+        <developerConnection>scm:git@github.com:mxvc/commons-lang-jackson.git</developerConnection>
+        <url>https://github.com/mxvc/commons-lang-jackson/tree/master</url>
     </scm>
 
     <properties>
